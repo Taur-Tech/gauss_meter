@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:gauss_meter_hw-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -456,12 +457,12 @@ F 3 "" H 3700 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5D523A3A
 P 5350 5100
-F 0 "J?" H 5430 5092 50  0000 L CNN
+F 0 "J2" H 5430 5092 50  0000 L CNN
 F 1 "128x64 - SSH1106" H 5430 5001 50  0000 L CNN
-F 2 "" H 5350 5100 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5350 5100 50  0001 C CNN
 F 3 "~" H 5350 5100 50  0001 C CNN
 	1    5350 5100
 	1    0    0    -1  
@@ -479,10 +480,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 4000 5250 4000
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR05
 U 1 1 5D52438B
 P 4800 4950
-F 0 "#PWR?" H 4800 4800 50  0001 C CNN
+F 0 "#PWR05" H 4800 4800 50  0001 C CNN
 F 1 "+5V" H 4815 5123 50  0000 C CNN
 F 2 "" H 4800 4950 50  0001 C CNN
 F 3 "" H 4800 4950 50  0001 C CNN
@@ -490,10 +491,10 @@ F 3 "" H 4800 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5D5243D4
 P 4900 5350
-F 0 "#PWR?" H 4900 5100 50  0001 C CNN
+F 0 "#PWR06" H 4900 5100 50  0001 C CNN
 F 1 "GND" H 4905 5177 50  0000 C CNN
 F 2 "" H 4900 5350 50  0001 C CNN
 F 3 "" H 4900 5350 50  0001 C CNN
